@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analog Clock</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="info">
+        <h1>ANALOG CLOCK</h1>
+        <h2>Styles</h2>
+        <div class="styles">
+            <button class="none">None</button>
+            <button class="inset">Inset</button>
+            <button class="outset">Outset</button>
+            <button class="solid">Solid</button>
+            <button class="dotted">Dotted</button>
+            <button class="dashed">Dashed</button>
+            <button class="groove">Groove</button>
+            <button class="ridge">Ridge</button>
+        </div>
+        <h2>Theme</h2>
+        <div class="theme">
+            <label for="frame_color"><span>Frame</span></label> <input type="color" value="#000000" id="frame_color">
+        </div>
+    </div>
+    <div class="clock">
+        <div class="centre"></div>
+        <div class="sechand"></div>
+        <div class="minhand"></div>
+        <div class="hourhand"></div>
+        <div class="digital">
+            <span class="digital_hour">00</span> : <span class="digital_min">00</span> : <span class="digital_sec">00</span>
+        </div>
+    </div>
+    <button class="theme_btn">🌑 Dark</button>
+    <script src="script.js"></script>
+</body>
+</html>
